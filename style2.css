@@ -9,8 +9,20 @@ body{
 .container{
     max-width: 900px;
     margin:0 auto;
-
 }
+
+.content.{width: 50%;
+float:left;
+text-align: justify;
+padding: 0 10px;
+background: white}
+
+.news{width: 50%;
+float:left;
+text-align: justify;
+padding: 0 10px;
+background:white}
+
 .header{
     background: url(images/logo.jpg);
     height: 200px;
@@ -26,6 +38,11 @@ h1{ font-size: 1.5rem;
 }
 ul{list-style: none;
 }
+ul:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 li{float:left;
     width:12.5%;
     border:1px solid white;
@@ -33,7 +50,7 @@ li{float:left;
 }
 a{width: 100%;
     background: rgba(255, 68, 0, 0.842); 
-display: inline-block;
+display: block;
 padding:10px;
 color:white;
 text-decoration: none;
