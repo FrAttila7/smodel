@@ -3,6 +3,44 @@
     padding:0;
     margin:0;
 }
-bodí{
-    <background-color: lightgreen;
+body{
+    background: bisque;
 }
+.container{
+    max-width: 900px;
+    margin:0 auto;
+
+}
+.header{
+    background: url(images/logo.jpg);
+    height: 200px;
+   
+}
+html{font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; //1rem
+}
+h1{ font-size: 1.5rem;
+    color:white;
+    text-transform: uppercase;
+    text-indent: 150px;
+}
+ul{list-style: none;
+}
+li{float:left;
+    width:12.5%;
+    border:1px solid white;
+    text-align: center;
+}
+a{width: 100%;
+    background: rgba(255, 68, 0, 0.842); 
+display: inline-block;
+padding:10px;
+color:white;
+text-decoration: none;
+font-size: .8rem}
+a:hover{color: white;
+text-decoration: underline;}
+li:first-child{
+    border-left: none;
+}
+li:last-child{border-right: none;}
